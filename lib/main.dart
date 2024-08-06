@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_login_app/pages/auth/login.dart';
+import 'package:flutter_login_app/pages/auth/signup.dart';
 import 'package:flutter_login_app/pages/welcome.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
       routes: {
         "/welcome": (context) => Welcome(),
         "/login": (context) => Login(),
+        "/signup": (context) => Signup()
       },
     );
   }
